@@ -30,22 +30,20 @@ int main()
 {
     float n, n2;
     int pos;
-    char ans, entero[maximo_chars], fracc[maximo_chars];
+    char ans, num[maximo_chars];
     do{
         printf("Introduzca un numero: ");
         fflush(stdin);
         scanf("%f", &n);
         n2=n-(int)n;
         printf("Ha introducido el numero %f\n", n);
-        resetear(entero);
-        resetear(fracc);
-        // Convertir a Binario
-        binario_entera((int)n, entero);
-        binario_fraccionaria(n2, fracc);
-        //Print the binary
-        prn_binario(entero);
+        resetear(num);
+        binario_entera((int)n, num);
+        prn_binario(num);
         printf(".");
-        prn_binario(fracc);
+        resetear(num);
+        binario_fraccionaria(n2, num);
+        prn_binario(num);
         // The end and repeat
         printf("\nDesea repetir la experiencia inolvidable que es convertir un numero a binario? (y/n)");
         fflush(stdin);
