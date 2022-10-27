@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/me/Documents/GitHub/CITIT11-1S-Programming/[TP] - Practica 3/cmake-build-debug"
+			"value" : "c:/Users/me/Documents/GitHub/CITIT11-Programming/[TP] - Practica 6/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/me/Documents/GitHub/CITIT11-1S-Programming/[TP] - Practica 3"
+			"value" : "C:/Users/me/Documents/GitHub/CITIT11-Programming/[TP] - Practica 6"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -491,7 +491,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/_TP____Practica_3"
+			"value" : "C:/Program Files (x86)/_TP____Practica_6"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -707,7 +707,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "_TP____Practica_3"
+			"value" : "_TP____Practica_6"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1086,7 +1086,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "_TP____Practica_3_BINARY_DIR",
+			"name" : "_TP____Practica_6_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1095,10 +1095,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/me/Documents/GitHub/CITIT11-1S-Programming/[TP] - Practica 3/cmake-build-debug"
+			"value" : "C:/Users/me/Documents/GitHub/CITIT11-Programming/[TP] - Practica 6/cmake-build-debug"
 		},
 		{
-			"name" : "_TP____Practica_3_IS_TOP_LEVEL",
+			"name" : "_TP____Practica_6_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1110,7 +1110,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "_TP____Practica_3_SOURCE_DIR",
+			"name" : "_TP____Practica_6_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1119,7 +1119,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/me/Documents/GitHub/CITIT11-1S-Programming/[TP] - Practica 3"
+			"value" : "C:/Users/me/Documents/GitHub/CITIT11-Programming/[TP] - Practica 6"
 		}
 	],
 	"kind" : "cache",

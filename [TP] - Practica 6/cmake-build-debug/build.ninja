@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: _TP____Practica_3
+# Project: _TP____Practica_6
 # Configurations: Debug
 # =============================================================================
 
@@ -39,49 +39,49 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/me/Documents/GitHub/CITIT11-Programming/[TP]$ -$ Practica$ 3/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/me/Documents/GitHub/CITIT11-Programming/[TP]$ -$ Practica$ 6/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target _TP____Practica_3
+# Object build statements for EXECUTABLE target _TP____Practica_6
 
 
 #############################################
-# Order-only phony target for _TP____Practica_3
+# Order-only phony target for _TP____Practica_6
 
-build cmake_object_order_depends_target__TP____Practica_3: phony || CMakeFiles/_TP____Practica_3.dir
+build cmake_object_order_depends_target__TP____Practica_6: phony || CMakeFiles/_TP____Practica_6.dir
 
-build CMakeFiles/_TP____Practica_3.dir/main.c.obj: C_COMPILER___TP____Practica_3_Debug C$:/Users/me/Documents/GitHub/CITIT11-Programming/[TP]$ -$ Practica$ 3/main.c || cmake_object_order_depends_target__TP____Practica_3
-  DEP_FILE = CMakeFiles\_TP____Practica_3.dir\main.c.obj.d
+build CMakeFiles/_TP____Practica_6.dir/main.c.obj: C_COMPILER___TP____Practica_6_Debug C$:/Users/me/Documents/GitHub/CITIT11-Programming/[TP]$ -$ Practica$ 6/main.c || cmake_object_order_depends_target__TP____Practica_6
+  DEP_FILE = CMakeFiles\_TP____Practica_6.dir\main.c.obj.d
   FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles\_TP____Practica_3.dir
-  OBJECT_FILE_DIR = CMakeFiles\_TP____Practica_3.dir
-  TARGET_COMPILE_PDB = CMakeFiles\_TP____Practica_3.dir\
-  TARGET_PDB = _TP____Practica_3.pdb
+  OBJECT_DIR = CMakeFiles\_TP____Practica_6.dir
+  OBJECT_FILE_DIR = CMakeFiles\_TP____Practica_6.dir
+  TARGET_COMPILE_PDB = CMakeFiles\_TP____Practica_6.dir\
+  TARGET_PDB = _TP____Practica_6.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target _TP____Practica_3
+# Link build statements for EXECUTABLE target _TP____Practica_6
 
 
 #############################################
-# Link the executable _TP____Practica_3.exe
+# Link the executable _TP____Practica_6.exe
 
-build _TP____Practica_3.exe: C_EXECUTABLE_LINKER___TP____Practica_3_Debug CMakeFiles/_TP____Practica_3.dir/main.c.obj
+build _TP____Practica_6.exe: C_EXECUTABLE_LINKER___TP____Practica_6_Debug CMakeFiles/_TP____Practica_6.dir/main.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\_TP____Practica_3.dir
+  OBJECT_DIR = CMakeFiles\_TP____Practica_6.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\_TP____Practica_3.dir\
-  TARGET_FILE = _TP____Practica_3.exe
-  TARGET_IMPLIB = lib_TP____Practica_3.dll.a
-  TARGET_PDB = _TP____Practica_3.pdb
+  TARGET_COMPILE_PDB = CMakeFiles\_TP____Practica_6.dir\
+  TARGET_FILE = _TP____Practica_6.exe
+  TARGET_IMPLIB = lib_TP____Practica_6.dll.a
+  TARGET_PDB = _TP____Practica_6.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\me\Documents\GitHub\CITIT11-Programming\[TP] - Practica 3\cmake-build-debug" && C:\Users\me\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4345.21\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\me\Documents\GitHub\CITIT11-Programming\[TP] - Practica 6\cmake-build-debug" && C:\Users\me\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4345.21\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -92,7 +92,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\me\Documents\GitHub\CITIT11-Programming\[TP] - Practica 3\cmake-build-debug" && C:\Users\me\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4345.21\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S"C:\Users\me\Documents\GitHub\CITIT11-Programming\[TP] - Practica 3" -B"C:\Users\me\Documents\GitHub\CITIT11-Programming\[TP] - Practica 3\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\me\Documents\GitHub\CITIT11-Programming\[TP] - Practica 6\cmake-build-debug" && C:\Users\me\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4345.21\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S"C:\Users\me\Documents\GitHub\CITIT11-Programming\[TP] - Practica 6" -B"C:\Users\me\Documents\GitHub\CITIT11-Programming\[TP] - Practica 6\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -102,7 +102,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build _TP____Practica_3: phony _TP____Practica_3.exe
+build _TP____Practica_6: phony _TP____Practica_6.exe
 
 # =============================================================================
 # Folder targets.
@@ -110,9 +110,9 @@ build _TP____Practica_3: phony _TP____Practica_3.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/me/Documents/GitHub/CITIT11-Programming/[TP] - Practica 3/cmake-build-debug
+# Folder: C:/Users/me/Documents/GitHub/CITIT11-Programming/[TP] - Practica 6/cmake-build-debug
 
-build all: phony _TP____Practica_3.exe
+build all: phony _TP____Practica_6.exe
 
 # =============================================================================
 # Built-in targets
