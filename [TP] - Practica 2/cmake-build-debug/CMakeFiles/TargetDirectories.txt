@@ -1,3 +1,0 @@
-C:/Users/me/Documents/GitHub/CITIT11-1S-Programming/[TP] - Practica 2/cmake-build-debug/CMakeFiles/_TP____Practica_2.dir
-C:/Users/me/Documents/GitHub/CITIT11-1S-Programming/[TP] - Practica 2/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/me/Documents/GitHub/CITIT11-1S-Programming/[TP] - Practica 2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
