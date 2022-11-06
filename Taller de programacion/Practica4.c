@@ -1,45 +1,50 @@
 #include <stdio.h>
 
-int main() {
-    int r, b, e, pos, posbin;
-    float bin;
-    char ans;
+int main()
+{
+    int decimal, base, exponent, binary_position, i;
+    float binary;
+    char answer;
+
     do {
         do {
             do {
                 printf("Introduzca la base [2-10]: ");
                 fflush(stdin);
-                scanf("%i", &b);
-            } while (b < 2 || b > 10);
+                scanf("%i", &base);
+            } while (base < 2 || base > 10);
+
             do {
                 printf("Introduzca el exponente [0-10]: ");
                 fflush(stdin);
-                scanf("%i", &e);
-            } while (e < 0 || e > 10);
-            printf("Datos Introducidos:\nBase: %i\nExponente: %i\nSon estos datos correctos? (y/n)\n", b, e);
+                scanf("%i", &exponent);
+            } while (exponent < 0 || exponent > 10);
+
+            printf("Datos introducidos:\nBase: %i\nExponente: %i\nSon estos datos correctos? (y/n): ", base, exponent);
             fflush(stdin);
-            scanf("%c", &ans);
-        } while (ans == 'N' || ans == 'n');
+            scanf("%c", &answer);
+        } while (answer == 'N' || answer == 'n');
 
-        if (e == 0) {
-            printf("Base: %i\nExponente: %i\nDecimal: 1\n---\n", b, pos);
-            printf("Bit 0: 1\n");
-            printf("---\n");
+        if (exponent == 0) {
+            printf("\n%i^%i=1\n---\nBit 0: 1\n---\n", base, i);
         } else {
-            for (pos = 1, r = 1; pos <= e; pos++) {
-                printf("Base: %i\nExponente: %i\nDecimal: %i\n---\n", b, pos, r *= b);
-                posbin = 0;
-                bin = r;
-                while (bin >= 1)
-                    printf("Bit %d: %d \n", posbin++, ((bin=bin / 2) - (int) bin) >= 0.5 ? 1 : 0);
-                printf("---\nPULSE CUALQUIER TECLA PARA CONTINUAR\n");
-                fflush(stdin);
-                scanf("%c", &ans);
+            decimal = 1;
+            for (i = 1; i <= exponent; i++) {
+                printf("\n%i^%i=%i\n---\n", base, i, decimal *= base);
 
+                binary_position = 0;
+                binary = decimal;
+                while (binary >= 1)
+                    printf("Bit %d: %d \n", binary_position++, ((binary = binary / 2) - (int) binary) >= 0.5 ? 1 : 0);
+
+                printf("---\nPULSE ENTER PARA CONTINUAR");
+                fflush(stdin);
+                getchar();
             }
         }
-        printf("Desea repetir?(y/n)");
+
+        printf("\nDesea repetir? (y/n): ");
         fflush(stdin);
-        scanf("%c", &ans);
-    }while(ans=='y'||ans=='Y'||ans=='\n');
+        scanf("%c", &answer);
+    }while(answer=='y'||answer=='Y'||answer=='\n');
 }
